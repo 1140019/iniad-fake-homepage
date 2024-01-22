@@ -97,3 +97,37 @@ p {
   text-align: left;
   display: inline-block;
 }
+
+#course_child {
+  display: flex;
+  justify-content: center; /* 要素を横方向に中央に配置 */
+  align-items: center; /* 要素を縦方向に中央に配置 */
+}
+
+#course_child ul {
+  list-style: none;
+  padding: 0;
+}
+
+#course_child ul li {
+  margin:  1px; /* 左右のマージンを調整して余白を均等に */
+}
+
+#course_child ul li img {
+  max-width: 30%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#course_child ul li p {
+  background-color: #23ADE5; /* 背景色を共通の色に指定 */
+  border-radius: 15px;
+  margin: 0;
+  padding: 8px; /* 上下の余白を追加 */
+  display: inline-block; /* インラインブロック要素に設定して幅を均等に */
+  box-sizing: border-box; /* paddingが幅を影響しないようにする */
+  display: flex;
+  justify-content: center; /* 要素を横方向に中央に配置 */
+  align-items: center; 
+}
