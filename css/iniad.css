@@ -97,3 +97,37 @@ p {
   text-align: left;
   display: inline-block;
 }
+
+#course_child {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+#course_child ul {
+  list-style: none;
+  padding: 0;
+}
+
+#course_child ul li {
+  margin: 0 10px; 
+}
+
+#course_child ul li img {
+  max-width: 20%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#course_child ul li p {
+  background-color: #23ADE5; 
+  border-radius: 15px;
+  margin: 0;
+  padding: 8px; 
+  display: inline-block; 
+  box-sizing: border-box; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
