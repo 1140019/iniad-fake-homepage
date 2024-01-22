@@ -1,36 +1,99 @@
 body {
-  background-color: #794c13;
-  color: #FE4261;
+  /* background-color: #794c13; */
+  color: #000000;
+  font-family: sans-serif;
 }
 
 h1 {
-  font-size: 24px;
-  text-align: center;
+  color: #ffffff;
 }
 
 h2 {
   font-size: 20px;
-  color: #000000;
-  border-bottom: solid 1px #cc0000;
+  color: #ffffff;
+  text-align: center;
 }
 
 h3 {
   font-size: 18px;
   padding-left: 4px;
-  border-left: solid 4px #cc0000;
+  border-left: solid 4px #23ADE5;
+}
+p {
+  font-size: 16px;
+  color: #000000;
+}
+
+.title{
+  padding: 24px;
+  background-color: #444444;
+  text-align: center;
+  margin: 20px 20px 20px 20px;
+}
+
+.title > h1{
+  color: #000000
+  display: inline-block;
+}
+
+.comment >p{
+  text-align: center;
+}
+
+.comment >img{
+  padding: 24px;
+  margin:auto;
+  display: flex;
+  height: 650px;
+}
+
+.date{
+  text-align: center;
+}
+
+.date_child{
+  text-align: left;
+  display: inline-block;
+}
+
+.element >h2{
+  display: block;
+  background-color: #23ADE5;
+  border-radius: 15px;
+  padding: 10px 0px 10px 0px;
 }
 
 #schedule {
+  text-align: center;
   padding: 10px 20px 10px 20px;
-  background-color: #9933ff;
 }
 
-.iniad {
-  color: #00cc00;
+#schedule_child{
+  text-align: left;
+  display: inline-block;
 }
 
 .time {
   font-weight: bold;
-  color: #cc0000;
+  color: #000000;
   font-size: 30px;
+}
+
+.concept{
+  text-align:center;
+}
+
+.concept_child {
+  display: inline-block;;
+  padding:0px 10px 0px 10px; 
+  margin:0px 50px 0px 10px ;
+}
+
+#course{
+  text-align:center;
+}
+
+#course_child{
+  text-align: left;
+  display: inline-block;
 }
