@@ -86,6 +86,20 @@ header img {
 	margin-top: 7px;
 	color: #fff;
 }
+/* map */
+.element{
+	margin:10px 40px 10px 40px;
+	display: inline-block;
+}
+.element >h2{
+}
+#map{
+	text-align: center;
+    height: 480px;
+	width: 1000px;
+    border : solid 1px #17194c;
+}
+
 /* footer */
 footer {
 	position: absolute;

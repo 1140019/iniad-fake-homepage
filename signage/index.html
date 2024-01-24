@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html>
- <head>
- <meta charset="utf-8">
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <meta http-equiv="Pragma" content="no-cache" />
- <meta http-equiv="cache-control" content="no-cache" />
- <meta http-equiv="expires" content="0" />
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
 
- <title>INIAD - Signage</title>
+    <title>INIAD - Signage</title>
 
- <link href="css/bootstrap.min.css" rel="stylesheet">
- <link href="css/font-awesome.min.css" rel="stylesheet">
- <link href="css/style.css" rel="stylesheet">
- </head>
- <body id="black">
-  <!-- header -->
-  <div class="wrap">
-   <header class="cf">
-    <img src="img_fixed/logo-b.png">
-   </header>
-   
-   <!-- contents -->
-   <h1>Signage Sample</h1>
-   <img src="img_fixed/logo.png">
-   
-   <!-- footer -->
-   <footer>
-    <img src="img_fixed/logo2-b.png" width="140px" height="60px">
-   </footer>
-  </div>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
-  <!-- scripts -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
-  <script src="js/bootstrap.min.js"></script>
- </body>
+</head>
+<body id="black">
+    <!-- header -->
+    <div class="wrap">
+    <header class="cf">
+        <img src="img_fixed/logo-b.png">
+    </header>
+    <!-- contents -->
+    <h1>Signage Sample</h1>
+    <img src="img_fixed/logo.png">
+    <!-- map -->
+    <div class="element">
+        <h2>所在地:〒115-8650 東京都北区赤羽台1丁目7−11</h2>
+        <div id="map">地図</div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <img src="img_fixed/logo2-b.png" width="140px" height="60px">
+    </footer>
+    </div>
+
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/iniad.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOZ6tkbWNdSqfb_o_QMTbBH11KjVT60vc&callback=initMap" async defer></script>
+
+</body>
 </html>
