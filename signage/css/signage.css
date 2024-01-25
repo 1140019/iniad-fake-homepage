@@ -34,3 +34,8 @@ html {
     pointer-events: auto;
     touch-action: auto;
 }
+
+.framedesign {
+   .framedesign tr:nth-child(2n+1) 
+    background: #000000;
+   }
