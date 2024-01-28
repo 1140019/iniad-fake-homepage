@@ -124,3 +124,39 @@ time {
 	
 	margin: 0;
   }
+
+#content {
+    display: flex;
+    flex-direction: row;
+}
+
+#pers {
+    width: 650px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+#weather {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+#weather th {
+    background-color: #17194c;
+    color: #ffffff;
+    padding: 5px 10px 5px 10px;
+	border:1px #ffffff solid;
+}
+
+#weather td {
+    background-color: #eeeeee;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+	border:1px #ffffff solid;
+}
+
+#weather ul {
+    padding: 10px 10px 10px 10px;
+}

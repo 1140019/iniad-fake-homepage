@@ -20,6 +20,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/iniad.css">
   </head>
   <body id="black">
     <!-- header -->
@@ -28,8 +29,61 @@
         <img src="img_fixed/logo-b.png">
       </header>
 
-      <h1>Signage Sample</h1>
-      <img src="img_fixed/logo.png">
+      <h1>（仮称）東洋大学赤羽台キャンパス新校舎建設工事</h1>
+
+      <!--pers,weather,ect-->
+
+      
+      <div id="content">
+        <div id="pers">
+          <img src="img/Bird.jpg">
+        </div>
+        <div id="weather">
+
+          <p>
+            <button onclick="findWeather()">気象情報を更新する</button>
+          </p>
+
+          <ul>
+            <li>緯度 : <span id="latitude">***</span></li>
+            <li>経度 : <span id="longitude">***</span></li>
+          </ul>
+
+          <table>
+            <tr>
+              <th>都市</th>
+              <td id="td-city"> *** </td>
+            </tr>
+            <tr>
+              <th>天気</th>
+              <td id="td-weather"> *** </td>
+            </tr>
+            <tr>
+              <th>気温 (Degree)</th>
+              <td id="td-temperature"> *** </td>
+            </tr>
+            <tr>
+              <th>湿度 (%)</th>
+              <td id="td-humidity"> *** </td>
+            </tr>
+            <tr>
+              <th>気圧 (hPa)</th>
+              <td id="td-pressure"> *** </td>
+            </tr>
+            <tr>
+              <th>風速 (m/s)</th>
+              <td id="td-wind"> *** </td>
+            </tr>
+          </table>
+        </div>
+
+      <!-- footer -->
+      <footer>
+          <img src="img_fixed/logo2-b.png" width="140px" height="60px">
+      </footer>
+      </div>
+
+
 
       <!--schedule-->
         <table class="framedesign">
@@ -78,10 +132,8 @@
 
     <!-- map -->
     <div class="element">
-      <div id="address">
-        <h2>所在地:〒115-8650 東京都北区赤羽台1丁目7−11</h2>
-      </div>
-        <div id="map">地図</div>
+      <h2 id="address">所在地:〒115-8650 東京都北区赤羽台1丁目7−11</h2>
+      <div id="map">地図</div>
     </div>
     <!-- footer -->
     <footer>
