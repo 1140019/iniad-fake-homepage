@@ -95,3 +95,10 @@ function displaymap(result){
 }
 
 let address = findlocation();
+
+let weatherIcons = {
+    'Clear': 'clear.png',
+    'Clouds': 'clouds.png',
+    'Rain': 'rain.png',
+    'Snow': 'snow.png'
+};
