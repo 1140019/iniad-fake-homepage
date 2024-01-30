@@ -16,7 +16,7 @@
       }
     </style>
     <title>INIAD - Signage</title>
-
+    
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -28,7 +28,25 @@
       <header class="cf">
         <img src="img_fixed/logo-b.png">
       </header>
-
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>日付と時刻の取得</title>
+        <link rel="stylesheet" href="styles.css"> 
+      </head>
+      <body>
+      
+        <p id="currentDateTime"></p>
+      
+        <script>
+          
+          var currentDateTime = new Date();
+          
+          
+          var options = { month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric' };
+          document.getElementById("currentDateTime").innerHTML =  currentDateTime.toLocaleString('ja-JP', options);
+        </script>
+      
+      </body>
       <h1>（仮称）東洋大学赤羽台キャンパス新校舎建設工事</h1>
 
       <!--pers,weather,ect-->
