@@ -44,22 +44,30 @@ function displayCoordinate(result) {
 
 
 function displayWeather(result) {
-    //天気を表示する
     let city = document.getElementById('td-city');
-    let weather = document.getElementById('td-weather');
     let temperature = document.getElementById('td-temperature');
     let humidity = document.getElementById('td-humidity');
     let pressure = document.getElementById('td-pressure');
     let wind = document.getElementById('td-wind');
-    let gustwind = document.getElementById('td-gustwind');
+    let weatherCell = document.getElementById('weatherCell');
 
     city.textContent = result.name;
-    weather.textContent = result.weather[0].main;
     temperature.textContent = result.main.temp;
     humidity.textContent = result.main.humidity;
     pressure.textContent = result.main.pressure;
     wind.textContent = result.wind.speed;
-}
+
+    
+    const weatherCode = result.weather[0].icon;
+    const weatherImage = `<img src="https://openweathermap.org/img/w/${weatherCode}.png" alt="${result.weather[0].description}">`;
+
+    
+    weatherCell.innerHTML = `${result.weather[0].main} ${weatherImage}`;
+  }
+
+  findWeather();
+  
+
 
 
 function findlocation(){
